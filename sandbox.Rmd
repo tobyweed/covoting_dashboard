@@ -1,0 +1,13 @@
+---
+title: "sandbox"
+output: html_document
+date: '2022-09-02'
+---
+
+```{r}
+votes <- read.csv("poh_votes.csv", colClasses = c("Voter.ID" = "character", "Proposal.ID" = "character")) # IDs will be read as hex if character not specified 
+
+
+
+```
+
